@@ -167,24 +167,6 @@ for myhouse in myhouses:
     print("build lot of housesasdlfpqowueioppppppppppppppppppppajskdkjkasdaaaaaaaaaaaaa")
     myhouse.buildall()
 
-if pos.x>=-521 and pos.x<=-514 and pos.z<=64 and pos.z>=57 and pos.y==68:
-    mc.postToChat("song one daa")
-    stayed_time=stayed_time+1
-    if stayed_time>=300:
-        mc.player.setTilePos(-527,68,92)
-        stayed_time=0
-    else:
-        nosong
-
-if pos.x>=-574 and pos.x<=-567 and pos.z<=125 and pos.z>=118 and pos.y==69:
-    mc.postToChat("song two doodoo")
-    stayed_time=stayed_time+1
-    if stayed_time>=300:
-        mc.player.setTilePos(-527,68,92)
-        stayed_time=0
-    else:
-        nnosong
-
 stayed_time = 0
 while True:
     print("stay_time"+str(stayed_time))
